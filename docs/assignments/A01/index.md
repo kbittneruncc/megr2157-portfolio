@@ -1,8 +1,18 @@
-# A1 – [Topic]
+# A1 – Build Your Professional Portfolio
+
+## Decide
+
+### Decision 1 – Homepage Identity
+The homepage is designed for prospective employers, engineering colleagues, and course evaluators who need to understand the portfolio without prior knowledge of the course. The site is identified as Kadin Bittner’s MEGR 2157 engineering portfolio and explains that each assignment follows the Analyze, Decide, and Communicate format. The homepage also describes the semester’s progression from individual component analysis to the design of a complete mechanical system. These elements allow a visitor to identify the portfolio’s purpose, organization, intended audience, and documentation standard before selecting a project.
+
+### Decision 2 – Intentional Customization
+The template’s primary color was changed from green to blue. The blue color maintains contrast between the navigation elements, headings, and white page background while creating a connection to technical drawings and engineering documentation. The blue color creates visual importance without changing the standard navigation structure.
+
+### Decision 3 – Documentation Standard
+Every assignment entry will state its objective, governing model, assumptions, calculations, decision criteria, and verified result with enough dimensions, units, figures, and information for another engineering student to reproduce the work without additional explanation.
 
 ## Objective
-
-The objective of this assignment is to establish a live engineering portfolio that documents technical work through analysis, justified design decisions, and reproducible communication. This assignment evaluates engineering portfolios, applies a governing mechanical model to a physical product, and establishes documentation requirements for future MEGR 2157 projects. The completed MkDocs site is intended to provide peers in engineering and possible employers with an organized record of the assumptions, calculations, selection criteria, and reasoning used throughout the design process.
+The objective of this assignment is to establish a live engineering portfolio that documents technical work through analysis, justified design decisions, and reproducible communication. This assignment evaluates engineering portfolios, applies a governing mechanical model to a physical product, and establishes documentation requirements for future MEGR 2157 projects. The completed site is intended to provide peers in engineering and possible employers with an organized record of the assumptions, calculations, selection criteria, and reasoning used throughout the design process.
 
 ## Analyze
 
@@ -20,7 +30,7 @@ The portfolio explains general steps taken to complete each project, but does no
 ##### Evidence of Reasoning
 The portfolio provides sufficient evidence of how design decisions developed. Using the CNC project as an example, the first moving-gantry design was scrapped because of material cost, leading to multiple design revisions. Concrete was initially selected because of its cost and damping properties, but research concerning stability led to the discovery and consideration of epoxy granite. The design changed again when precision granite surface plates became available. Other projects exhibit similar failures and corrections. For example, oscillation in the electric shopping cart led to adding mass to increase the front axle’s moment of inertia and later to the installation of a liquid damper. These examples demonstrate a process involving problem identification, evaluation, testing, and modification. The reasoning is mostly subjective due to the specifics of each project being unknown.
 
-###### Professional Tone
+##### Professional Tone
 The portfolio demonstrates experience through specific descriptions of machining, welding, CAD, material selection, and mechanical troubleshooting. It also identifies measurable information in several places, including milling-machine backlash below 0.002 inches and an electric-bike speed of approximately 25 miles per hour. These details help an engineer evaluate the scale, quality, and performance of the work. However, expressions such as “yikes,” “not too shabby,” and “And it’s done!!!” create a conversational tone not appropriate for a formal document submitted to an employer. The portfolio acts as a more personal log than a demonstration of practical experience, but in the case of presenting the portfolio to an employer, this document would be strengthened by concise project objectives, specific requirements, labeled figures, formal results, and links to technical drawings or CAD files.
 
 #### Portfolio 2: Nathan Hoong’s Engineering Portfolio
