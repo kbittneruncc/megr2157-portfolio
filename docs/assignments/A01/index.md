@@ -156,9 +156,3 @@ An earlier spring-clamp design was patented by David M. Smith in [U.S. Patent No
 
 #### Design Decision
 A specific design decision was forming the spring and fulcrum from one continuous piece of wire. The spring coil fits inside the central recesses of the wooden levers, while its extended arms fit into grooves on their outer surfaces. This construction eliminates separate hinge pins, fasteners, and springs. Reducing the number of components simplifies assembly, lowers manufacturing complexity, and provides a consistent closing moment at the jaws. The geometry satisfies both the mechanical requirement of maintaining clamping force and the manufacturing requirement of minimizing assembly operations.
-
-## Decide
-
-
-## Communicate
-
