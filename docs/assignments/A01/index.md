@@ -19,7 +19,7 @@ The objective of this assignment is to establish a live engineering portfolio th
 ### Task A
 
 #### Portfolio 1: Ethan's MIT Maker Portfolio
-**Portfolio URL:** https://elchun.github.io/project_pages/maker_portfolio
+**Portfolio URL:** <https://elchun.github.io/project_pages/maker_portfolio>
 
 ##### Navigability
 A specific project from Ethan's page can be located in under 60 seconds due to the headers being the beginning of each project description, such as "Belt Grinder" and "Pedestal Grinder." This type of organization allows for each project to be viewed on a single page continuously. The portfolio does not provide a table of contents or a menu to quickly access a specific project, which is disadvantageous if the user is trying to locate a project closer to the bottom of the document. While the 60 second requirement was met, a table of contents or project menu would make the page more easily navigable.
@@ -34,7 +34,7 @@ The portfolio provides sufficient evidence of how design decisions developed. Us
 The portfolio demonstrates experience through specific descriptions of machining, welding, CAD, material selection, and mechanical troubleshooting. It also identifies measurable information in several places, including milling-machine backlash below 0.002 inches and an electric-bike speed of approximately 25 miles per hour. These details help an engineer evaluate the scale, quality, and performance of the work. However, expressions such as “yikes,” “not too shabby,” and “And it’s done!!!” create a conversational tone not appropriate for a formal document submitted to an employer. The portfolio acts as a more personal log than a demonstration of practical experience, but in the case of presenting the portfolio to an employer, this document would be strengthened by concise project objectives, specific requirements, labeled figures, formal results, and links to technical drawings or CAD files.
 
 #### Portfolio 2: Nathan Hoong’s Engineering Portfolio
-**Portfolio URL:** https://nhoong.github.io/index.html
+**Portfolio URL:** <https://nhoong.github.io/index.html>
 
 ##### Navigability
 A specific project could be located in approximately 15 seconds because the portfolio presents all projects on one continuous page with prominent headings such as “Glaukos, Senior Capstone Project,” “Butterfly Valve,” and “Wobbler Engine.” The navigation bar also provides direct links to the portfolio, work experience, résumé, LinkedIn profile, and GitHub account. However, it does not include a project index or direct links to individual projects. A reader can satisfy the 60-second requirement by scrolling through the headings, but finding a project near the bottom requires scanning past every preceding entry.
