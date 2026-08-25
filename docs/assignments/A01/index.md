@@ -77,7 +77,7 @@ F_j = (M_s)/(L_j)
 
 The spring moment can be estimated using:
 
-M_s = k_0 * 0
+M_s = k_θ * θ
 
 where:
 
@@ -86,8 +86,8 @@ where:
 - \(L_h\) = perpendicular distance from the fulcrum to the hand force, in meters
 - \(L_j\) = perpendicular distance from the fulcrum to the jaw contact point, in meters
 - \(M_s\) = moment produced by the spring, in newton-meters
-- \(k_0) = torsional spring constant, in newton-meters per radian
-- \(0) = angular displacement of the spring, in radians
+- \(k_θ) = torsional spring constant, in newton-meters per radian
+- \(θ) = angular displacement of the spring, in radians
 - \(O\) = fulcrum about which each wooden arm rotates
 
 #### Product Measurements
