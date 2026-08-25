@@ -60,33 +60,24 @@ The primary function of the clothespin is to apply a continuous compressive clam
 
 The primary action is shown by static moment equilibrium about the fulcrum:
 
-$$
-\sum M_O = 0
-$$
+M_O = 0
 
 For one wooden arm:
 
-$$
 F_hL_h + F_jL_j - M_s = 0
-$$
 
 Solving for the jaw force:
 
-$$
-F_j = \frac{M_s-F_hL_h}{L_j}
-$$
+F_j = (M_s-F_hL_h)/(L_j)
+
 
 When the handles are released, \(F_h=0\), resulting in:
 
-$$
-F_j = \frac{M_s}{L_j}
-$$
+F_j = (M_s)/(L_j)
 
 The spring moment can be estimated using:
 
-$$
-M_s=k_\theta\theta
-$$
+M_s = k_0 * 0
 
 where:
 
@@ -95,8 +86,8 @@ where:
 - \(L_h\) = perpendicular distance from the fulcrum to the hand force, in meters
 - \(L_j\) = perpendicular distance from the fulcrum to the jaw contact point, in meters
 - \(M_s\) = moment produced by the spring, in newton-meters
-- \(k_\theta\) = torsional spring constant, in newton-meters per radian
-- \(\theta\) = angular displacement of the spring, in radians
+- \(k_0) = torsional spring constant, in newton-meters per radian
+- \(0) = angular displacement of the spring, in radians
 - \(O\) = fulcrum about which each wooden arm rotates
 
 #### Product Measurements
