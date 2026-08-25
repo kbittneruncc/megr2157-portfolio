@@ -142,7 +142,7 @@ The analyzed clothespin is most similar to [U.S. Patent No. 365,755A](https://pa
 - **Patent number:** US365755A
 - **Inventor:** Solon E. Moore
 - **Patent date:** June 28, 1887
-- **Patent link:** [View the patent on Google Patents](https://patents.google.com/patent/US365755A/en)
+- **Patent link:** https://patents.google.com/patent/US365755A/en
 
 The patent describes two wooden clamping sections with beveled jaws, clothesline grooves, fulcrum recesses, and a spring made from one piece of wire. The spring contains a central coil that acts as a movable fulcrum and arms that compress the clamping end. These features are close to the geometry of a modern wooden spring clothespin.
 
