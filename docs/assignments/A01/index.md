@@ -104,7 +104,7 @@ The assembled clothespin has an overall length of **66.675 mm**, a maximum width
 
 #### Assembled Product
 
-images/clothespin-assembled.jpg
+![Assembled wooden clothespin](images/clothespin-assembled.jpg)
 
 *Figure 1. Assembled wooden clothespin selected for analysis.*
 
@@ -114,7 +114,7 @@ The clothespin contains two wooden levers and one wire torsion spring. The sprin
 
 ##### Component 1 – First Wooden Lever
 
-images/clothespin-lever-1.jpg
+![First wooden lever](images/clothespin-lever-1.jpg)
 
 *Figure 2. First wooden lever removed from the clothespin.*
 
@@ -122,7 +122,7 @@ The first wooden component acts as a rigid lever that rotates about the spring f
 
 ##### Component 2 – Second Wooden Lever
 
-images/clothespin-lever-2.jpg
+![Second wooden lever](images/clothespin-lever-2.jpg)
 
 *Figure 3. Second wooden lever removed from the clothespin.*
 
@@ -130,7 +130,7 @@ The second wooden component mirrors the first lever and completes the opposing j
 
 ##### Component 3 – Formed-Wire Torsion Spring
 
-images/clothespin-spring.jpg
+![Formed-wire clothespin spring](images/clothespin-spring.jpg)
 
 *Figure 4. Formed-wire spring removed from the clothespin.*
 
