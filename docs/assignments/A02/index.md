@@ -34,7 +34,7 @@ Moving point B to the origin did not change the required dimensions or geometry.
 
 The truss contained five members, four joints, and three support-reaction components. The planar-truss determinacy equation was used to verify that the structure could be solved using the equations of static equilibrium. The complete determinacy calculation is shown below.
 
-![Static determinacy calculation](a2/determinacy-calculation.png)
+![Static determinacy calculation](determinacy-calculation.png)
 
 The calculation showed that the truss was statically determinate.
 
@@ -42,7 +42,7 @@ The calculation showed that the truss was statically determinate.
 
 An entire-truss free-body diagram was created before the individual joints were analyzed. The pin at A produced horizontal and vertical reactions, while the roller at B produced one vertical reaction. The reactions were found by applying the horizontal-force, vertical-force, and moment equilibrium equations.
 
-![Entire-truss FBD and support-reaction calculations](a2/truss-fbd-reactions.png)
+![Entire-truss FBD and support-reaction calculations](truss-fbd-reactions.png)
 
 The horizontal reaction at A was 0 kN.
 
@@ -56,17 +56,17 @@ The downward reaction at B means the support must be capable of resisting uplift
 
 A separate free-body diagram was created for each joint. Every unknown member force was initially assumed to be in tension and was drawn pointing away from its joint. A negative result indicated that the actual force direction was opposite the assumed direction and that the member was in compression.
 
-![Joint C free-body diagram](a2/joint-c-fbd.png)
+![Joint C free-body diagram](joint-c-fbd.png)
 
-![Joint D free-body diagram](a2/joint-d-fbd.png)
+![Joint D free-body diagram](joint-d-fbd.png)
 
-![Joint A and B free-body diagrams](a2/joints-a-b-fbd.png)
+![Joint A and B free-body diagrams](joints-a-b-fbd.png)
 
 ### Internal Member Forces
 
 The method of joints was used to calculate the force in each truss member. Joint C was analyzed first because it contained only two unknown member forces. The remaining joints were analyzed after the forces in BC and CD were known.
 
-![Internal member-force calculations](a2/member-force-calculations.png)
+![Internal member-force calculations](member-force-calculations.png)
 
 The force in member AB was 11.111 kN in compression.
 
@@ -84,11 +84,11 @@ Member BD contained the largest internal force. Therefore, 47.467 kN was used to
 
 The minimum member area was determined using the largest internal force, the yield strength of ASTM A500 Grade C steel, and a safety factor of 3.5. A yield strength of 345 MPa was used. The known quantities, unknown quantities, symbolic solution, and numerical solution are shown in the following hand calculations.
 
-![Member-design knowns and unknowns](images/a2/member-knowns-unknowns.png)
+![Member-design knowns and unknowns](member-knowns-unknowns.png)
 
-![Symbolic member-area calculation](images/a2/member-area-symbolic.png)
+![Symbolic member-area calculation](member-area-symbolic.png)
 
-![Numerical member-area calculation](images/a2/member-area-numerical.png)
+![Numerical member-area calculation](member-area-numerical.png)
 
 The calculated minimum cross-sectional area was 481.546 square millimeters.
 
@@ -100,7 +100,7 @@ The selected cross section produced an actual safety factor of 3.561. Since this
 
 The total length of the five truss members was 3.45440 m. The selected area of 490 square millimeters and a steel density of 7850 kilograms per cubic meter were used to estimate the volume, mass, and weight of the truss. The complete calculation is shown below.
 
-![Analytical truss-weight calculation](images/a2/truss-weight-calculation.png)
+![Analytical truss-weight calculation](truss-weight-calculation.png)
 
 The approximate truss volume was 0.001692656 cubic meters.
 
@@ -116,17 +116,17 @@ The connecting pins were designed using the largest transmitted force of 47.467 
 
 The known quantities and unknown quantities are shown below.
 
-![Pin-design knowns and unknowns](images/a2/pin-knowns-unknowns.png)
+![Pin-design knowns and unknowns](pin-knowns-unknowns.png)
 
 A free-body diagram was created for the pin carrying the largest force. The diagram contained two equal and opposite forces and one shear plane.
 
-![Critical-pin free-body diagram](images/a2/pin-fbd.png)
+![Critical-pin free-body diagram](pin-fbd.png)
 
 The symbolic and numerical pin calculations are shown below.
 
-![Symbolic pin calculation](images/a2/pin-area-symbolic.png)
+![Symbolic pin calculation](pin-area-symbolic.png)
 
-![Numerical pin calculation](images/a2/pin-area-numerical.png)
+![Numerical pin calculation](pin-area-numerical.png)
 
 The minimum required pin area was 0.251081 square inches.
 
@@ -178,15 +178,15 @@ Because 540 square millimeters was greater than the selected member area of 490 
 
 The complete truss was created in Fusion 360 as one continuous part rather than five separate member components. Each member was modeled with a width of 49 mm, and the complete truss was extruded to a thickness of 10 mm. Circular joint pads with diameters of 70 mm were added at points A, B, C, and D.
 
-![Dimensioned Fusion 360 sketch](images/a2/fusion-sketch.png)
+![Dimensioned Fusion 360 sketch](fusion-sketch.png)
 
-![Completed Fusion 360 truss part](images/a2/fusion-truss.png)
+![Completed Fusion 360 truss part](fusion-truss.png)
 
 A 16 mm through-hole was cut at the center of each joint pad. One separate pin component was created with a diameter of 15.875 mm and a length of 10 mm. Four occurrences of the pin were inserted into the assembly and positioned in the four joint holes.
 
-![Fusion 360 pin model](images/a2/fusion-pin.png)
+![Fusion 360 pin model](fusion-pin.png)
 
-![Completed truss assembly](images/a2/truss-assembly.png)
+![Completed truss assembly](truss-assembly.png)
 
 ### Material Properties
 
@@ -194,13 +194,13 @@ A custom ASTM A500 Grade C steel material was assigned to the truss. The materia
 
 A custom hardened tool-steel material was assigned to the pins. The pin density was set to 0.278 pounds per cubic inch. The provided shear yield strength of 170 ksi was used in the hand calculations instead of being entered as Fusion’s tensile yield strength.
 
-![Fusion 360 material properties](images/a2/material-properties.png)
+![Fusion 360 material properties](material-properties.png)
 
 ### CAD Mass Properties
 
 Fusion 360 was used to determine the predicted mass of the completed truss and pin assembly. The material properties were assigned before the assembly properties were measured. The Fusion 360 mass-properties result is shown below.
 
-![Fusion 360 mass properties](images/a2/mass-properties.png)
+![Fusion 360 mass properties](mass-properties.png)
 
 The CAD assembly mass was 12.690041 kg.
 
@@ -248,7 +248,7 @@ Total time: [Enter total time]
 
 The completed Fusion 360 truss and pin assembly can be downloaded below.
 
-[Download the A2 truss CAD files](files/a2-truss-assembly.f3z)
+[Download the A2 truss CAD files](a2-truss-assembly.f3z)
 
 ### References
 
