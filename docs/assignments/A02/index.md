@@ -28,7 +28,7 @@ A = (1200 mm, 0 mm)
 
 Moving point B to the origin did not change the required dimensions or geometry.
 
-![Selected truss geometry](a2/truss-geometry.png)
+![Selected truss geometry](truss-geometry.png)
 
 ### Static Determinacy
 
