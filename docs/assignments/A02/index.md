@@ -218,13 +218,95 @@ The pins initially moved together because they were copied as bodies instead of 
 
 The first joint design did not account for the material removed by the pin holes. Circular 70 mm pads were added around the joints to maintain the required net cross-sectional area. This revision prevented the connection regions from being weaker than the main members.
 
+### Failure Modes of the Truss Members
+
+The truss members were modeled using ASTM A500 Grade C steel. This material has a yield strength of approximately 345 MPa and an ultimate tensile strength of approximately 427 MPa. Because the yield strength is lower than the ultimate tensile strength, the steel is considered ductile and will generally begin yielding before it fractures under gradually applied axial loading.
+
+The normal stress in each member was calculated by dividing the absolute value of its internal internal force by the selected cross-sectional area of 490 square millimeters. All calculated stresses were below the yield strength of 345 MPa. The following sections identify the most likely failure mode for each member if the loading were increased.
+
+#### Member AB
+
+Member AB carries 11.111 kN in compression. Its normal compressive stress is approximately 22.676 MPa, which is below the 345 MPa yield strength of the steel.
+
+Because AB is the longest compression member at 1200 mm, its most likely realistic failure mode is buckling rather than material yielding or fracture. Long compression members can become unstable and bend laterally before reaching the material’s compressive yield strength. The assignment permits buckling to be ignored in the original sizing calculations, but buckling remains the most likely physical failure mode for this member.
+
+ASTM A500 Grade C steel is ductile, but ductility does not prevent a long compression member from buckling. Buckling is controlled mainly by member length, end conditions, modulus of elasticity, and the smallest moment of inertia. The Euler buckling equation shows that the critical buckling load decreases as member length inrch2"]}}
+
+The likelihood of failure could be reduced by adding lateral bracing, decreasing the unsupported length, or increasing the 10 mm weak-axis thickness of the member.
+
+#### Member BC
+
+Member BC carries 41.667 kN in compression. Its normal compressive stress is approximately 85.034 MPa, which is below the 345 MPa yield strength.
+
+The expected realistic failure mode is buckling because the member is relatively slender and is loaded in compression. Although BC is shorter than AB, it carries a considerably larger compressive force. This combination makes buckling more likely than yielding or fracture unless the member is properly braced.
+
+The material is ductile, but the member could become geometrically unstable before the material yields. The assignment assumption allows buckling to be excluded from the sizing calculation, so the member satisfies the required axial-yield safety factor under that assumption.
+
+The likelihood of buckling could be reduced by increasing the weak-axis thickness, adding out-of-plane bracing, or reducing the unsupported member length.
+
+#### Member CD
+
+Member CD carries 33.333 kN in compression. Its normal compressive stress is approximately 68.027 MPa, which is below the 345 MPa yield strength.
+
+The expected failure mode is buckling because CD is a compression member. However, CD is only 400 mm long, making it less susceptible to buckling than members AB and BC. If adequate bracing prevented buckling, the next expected failure mode would be compressive yielding.
+
+The material is ductile, and the calculated stress is well below its yield strength. Fracture is unlikely to occur before yielding under a gradually applied axial load.
+
+The likelihood of failure could be reduced by increasing the member thickness, adding lateral support, or increasing the cross-sectional moment of inertia.
+
+#### Member DA
+
+Member DA carries 13.889 kN in tension. Its normal tensile stress is approximately 28.345 MPa, which is below the 345 MPa yield strength.
+
+The expected failure mode is yielding. Buckling is not applicable because the member is in tension, and fracture is less likely to occur first because the ductile A500 Grade C steel has a yield strength below its ultimate tensile strength.
+
+The member would begin permanently deforming if its stress reached the yield strength. Fracture would require the stress to increase closer to the ultimate tensile strength of approximately 427 MPa.
+
+The likelihood of failure could be reduced by increasing the cross-sectional area, using steel with a greater yield strength, or reducing stress concentrations near the pin holes.
+
+#### Member BD
+
+Member BD carries 47.467 kN in tension and has the largest internal force in the truss. Its normal tensile stress is approximately 96.871 MPa, which is below the 345 MPa yield strength.
+
+The expected failure mode is yielding because BD is in tension and the A500 Grade C steel is ductile. Buckling cannot occur under tensile loading, and yielding would occur before tensile fracture because the yield strength is lower than the ultimate tensile strength.
+
+Member BD is the most highly stressed member and therefore controls the cross-sectional area used for the entire truss. Its calculated stress is also below the allowable stress of 98.571 MPa obtained using the required safety factor of 3.5.
+
+The likelihood of failure could be reduced by increasing the cross-sectional area of the members, reducing the applied load, or selecting a material with a greater yield strength.
+
+### Summary of Truss-Member Failure Modes
+
+Member AB is expected to fail through buckling because it is the longest compression member.
+
+Member BC is expected to fail through buckling because it carries a large compressive force and is relatively slender.
+
+Member CD is also expected to fail through buckling, although its shorter length makes buckling less likely than in AB or BC. If buckling is prevented, it would eventually fail through compressive yielding.
+
+Member DA is expected to fail through tensile yielding.
+
+Member BD is expected to fail through tensile yielding and is the most highly stressed member.
+
+The original strength calculations followed the assignment instruction to assume that compression members would not fail through buckling. Under that assumption, the compression members would be checked for yielding. In a real truss, a separate buckling analysis and adequate out-of-plane bracing would be necessary.
+
+### Pin Connection Failure
+
+The pins were designed as single-shear connections. In single shear, the complete connection force is carried across one cross-sectional area of the pin, and the average shear stress is calculated by dividing the shear force by the prch0"]}}
+
+The largest pin force was 47.467 kN, or 10.671 kip. The selected 5/8-inch pin had a cross-sectional area of 0.306796 square inches. Dividing the force by the pin area produced an average shear stress of approximately 34.782 ksi.
+
+The hardened tool steel had a given shear yield strength of 170 ksi. Applying the required safety factor of 4 produced an allowable shear stress of 42.5 ksi. Since the calculated stress of 34.782 ksi was below the allowable stress, the pin satisfied the design requirement.
+
+The expected pin failure mode is shear yielding across the single shear plane. If the loading continued to increase after yielding, the pin could eventually experience complete shear fracture. The calculated pin safety factor was approximately 4.888, which was greater than the required value of 4.
+
+The likelihood of pin failure could be reduced by increasing the pin diameter. Another effective modification would be changing the connection from single shear to double shear, which would create two resisting shear planes and reduce the force carried by each plane.
+
 ### Time Required
 
-Geometry selection and initial sketch: [Enter time]
+Geometry selection and initial sketch: 30 minutes
 
-Free-body diagrams: [Enter time]
+Free-body diagrams: 1 hour
 
-Static calculations: [Enter time]
+Static calculations: 20 minutes
 
 Member and pin design: [Enter time]
 
@@ -240,7 +322,7 @@ Total time: [Enter total time]
 
 The completed Fusion 360 truss and pin assembly can be downloaded below.
 
-[Download the A2 truss CAD files](a2-truss-assembly.f3z)
+[Download the A2 truss CAD files](a2-truss-assembly.zip)
 
 ### References
 
