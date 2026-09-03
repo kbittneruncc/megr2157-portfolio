@@ -308,15 +308,15 @@ Free-body diagrams: 1 hour
 
 Static calculations: 20 minutes
 
-Member and pin design: [Enter time]
+Member and pin design: 2 hours
 
-Fusion 360 modeling: [Enter time]
+Fusion 360 modeling: 30 minutes
 
-CAD revisions and mass properties: [Enter time]
+CAD revisions and mass properties: 20 minutes
 
-Portfolio documentation: [Enter time]
+Portfolio documentation: 5 hours
 
-Total time: [Enter total time]
+Total time: 9 hours 40 minutes
 
 ### CAD File Download
 
