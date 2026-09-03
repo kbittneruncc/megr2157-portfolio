@@ -8,6 +8,8 @@ The objective of this project was to design a lightweight planar truss capable o
 
 ### Design Requirements
 
+![Truss design outline](truss-problem.png)
+
 A load of 25 kN was selected from the permitted range of 20 kN to 30 kN. The required horizontal dimension was a = 0.4 m, and the required vertical dimension was b = 0.3 m. Every truss member was required to have the same cross-sectional area, and every connecting pin was required to have the same diameter.
 
 Point A was modeled as a pin support, while point B was modeled as a roller support. The truss, excluding its pins, was required to be represented as one continuous CAD part. The assignment also allowed the assumption that members in compression would not fail through buckling.
