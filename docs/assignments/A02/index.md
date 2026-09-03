@@ -34,7 +34,7 @@ Moving point B to the origin did not change the required dimensions or geometry.
 
 The truss contained five members, four joints, and three support-reaction components. The planar-truss determinacy equation was used to verify that the structure could be solved using the equations of static equilibrium. The complete determinacy calculation is shown below.
 
-![Static determinacy calculation](determinacy-calculation.png)
+![Static determinacy calculation](determinancy-calculation.png)
 
 The calculation showed that the truss was statically determinate.
 
@@ -42,7 +42,7 @@ The calculation showed that the truss was statically determinate.
 
 An entire-truss free-body diagram was created before the individual joints were analyzed. The pin at A produced horizontal and vertical reactions, while the roller at B produced one vertical reaction. The reactions were found by applying the horizontal-force, vertical-force, and moment equilibrium equations.
 
-![Entire-truss FBD and support-reaction calculations](truss-fbd-reactions.png)
+![Entire-truss FBD and support-reaction calculations](truss-fbd-reaction.png)
 
 The horizontal reaction at A was 0 kN.
 
