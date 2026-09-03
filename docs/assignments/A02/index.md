@@ -204,15 +204,15 @@ The percent difference between the analytical and CAD assembly masses was 4.925 
 
 ### Engineering Lessons Learned
 
-This project demonstrated that the initial direction assumed for a member force affects how the final result is interpreted. A negative force did not mean the calculation was incorrect. It indicated that the member was in compression instead of the initially assumed tension.
+I learned the process of analyzing and calculated all of the components of the truss was one of the major factors that contributed to the time spent on this activity. Completing the design and drawing in Fusion 360 was relatively simple and took only a small amount of time to accomplish. 
 
-The project also demonstrated that a pin hole reduces the available cross-sectional area at a connection. The original member area was large enough away from the joints, but additional material was required around the holes. Enlarging the joint pads prevented the pin holes from becoming the weakest cross sections.
+I learned that, in the future, it will be beneficial to document the process as I have completed each part; the documentation of the entire process costed the most time and effort to put the explanation of each process and step taken into words.
 
-The CAD model demonstrated how overlapping geometry affects weight calculations. The analytical method counted overlapping member material more than once, while Fusion 360 counted the merged material only once. This produced a reasonable difference between the analytical and CAD weight predictions.
+I learned that the initial steps taken when analyzing the problem impacts every step of the process and could have been catastrophic if calculations are done incorrectly or incorrect assumptions are made.
 
 ### Mistakes and Revisions
 
-During the first CAD extrusion, Fusion 360 filled the triangular openings because all closed sketch profiles were selected. The unwanted triangular material was removed using an extrude cut through the complete thickness. This created the intended open truss structure.
+During the first CAD extrusion, Fusion 360 filled the triangular openings because all closed sketch profiles were selected. The unwanted triangular material was removed by selecting only the intended parts to extrude. This created the intended open truss structure.
 
 The pins initially moved together because they were copied as bodies instead of being inserted as separate component occurrences. The pin was converted into a component and inserted four separate times. This allowed each pin to be positioned independently.
 
@@ -314,9 +314,11 @@ Fusion 360 modeling: 30 minutes
 
 CAD revisions and mass properties: 20 minutes
 
+Likelihood of Failure Modes in Truss Components: 3 hours
+
 Portfolio documentation: 5 hours
 
-Total time: 9 hours 40 minutes
+Total time: 12 hours 40 minutes
 
 ### CAD File Download
 
@@ -328,8 +330,26 @@ The completed Fusion 360 truss and pin assembly can be downloaded below.
 
 Oberg, E., Jones, F. D., Horton, H. L., and Ryffel, H. H. Machinery’s Handbook, 31st edition. Industrial Press. “Stress and Strain/Working Stress,” page 212, and “Simple Stresses,” pages 216 through 218.
 
-ASTM International. “ASTM A500/A500M: Standard Specification for Cold-Formed Welded and Seamless Carbon Steel Structural Tubing in Rounds and Shapes.”
-[ASTM A500/A500M](https://store.astm.org/a0500_a0500m-23.html)
+American Institute of Steel Construction. (2022). *Steel availability and material specifications*. Modern Steel Construction.  
+[https://www.aisc.org/globalassets/modern-steel/archives/2022/june2022.pdf](https://www.aisc.org/globalassets/modern-steel/archives/2022/june2022.pdf)
 
-American Institute of Steel Construction. “Steel Availability and Material Specifications.” Modern Steel Construction, June 2022.
-[AISC publication](https://www.aisc.org/globalassets/modern-steel/archives/2022/june2022.pdf)
+ASTM International. (2023). *ASTM A500/A500M-23: Standard specification for cold-formed welded and seamless carbon steel structural tubing in rounds and shapes*.  
+[https://store.astm.org/a0500_a0500m-23.html](https://store.astm.org/a0500_a0500m-23.html)
+
+Louisiana State University College of Engineering. (n.d.). *Mechanics of materials: Fundamentals of Engineering review course*.  
+[https://www.lsu.edu/eng/docs/FE-Exam-Review/festrengthofmaterials0930.pdf](https://www.lsu.edu/eng/docs/FE-Exam-Review/festrengthofmaterials0930.pdf)
+
+Massachusetts Institute of Technology OpenCourseWare. (2003). *Euler buckling loads*.  
+[https://ocw.mit.edu/courses/1-105-solid-mechanics-laboratory-fall-2003/2efb80105093e97d5cafa257d08926f2_exp7_03.pdf](https://ocw.mit.edu/courses/1-105-solid-mechanics-laboratory-fall-2003/2efb80105093e97d5cafa257d08926f2_exp7_03.pdf)
+
+Purdue University. (2020). *Shear stress and shear strain: Chapter 3*. ME 323 Mechanics of Materials.  
+[https://www.purdue.edu/freeform/me323/wp-content/uploads/sites/2/2020/09/chapter03.pdf](https://www.purdue.edu/freeform/me323/wp-content/uploads/sites/2/2020/09/chapter03.pdf)
+
+University of Illinois Urbana-Champaign. (n.d.). *Stress*. Mechanics Reference.  
+[https://mechref.engr.illinois.edu/sol/stress.html](https://mechref.engr.illinois.edu/sol/stress.html)
+
+University of Illinois Urbana-Champaign. (n.d.). *Buckling*. Mechanics Reference.  
+[https://mechref.engr.illinois.edu/sol/buckling.html](https://mechref.engr.illinois.edu/sol/buckling.html)
+
+Virginia Tech. (n.d.). *Allowable stress*. Structure and Form Analysis System Knowledgebase.  
+[https://www.setareh.arch.vt.edu/safas/007_fdmtl_30_allowable_stress.html](https://www.setareh.arch.vt.edu/safas/007_fdmtl_30_allowable_stress.html)
