@@ -56,17 +56,13 @@ The downward reaction at B means the support must be capable of resisting uplift
 
 A separate free-body diagram was created for each joint. Every unknown member force was initially assumed to be in tension and was drawn pointing away from its joint. A negative result indicated that the actual force direction was opposite the assumed direction and that the member was in compression.
 
-![Joint C free-body diagram](joint-c-fbd.png)
+![Joint C & D free-body diagram](joint-cd-fbd.png)
 
-![Joint D free-body diagram](joint-d-fbd.png)
-
-![Joint A and B free-body diagrams](joints-a-b-fbd.png)
+![Joint A and B free-body diagrams](joints-ab-fbd.png)
 
 ### Internal Member Forces
 
 The method of joints was used to calculate the force in each truss member. Joint C was analyzed first because it contained only two unknown member forces. The remaining joints were analyzed after the forces in BC and CD were known.
-
-![Internal member-force calculations](member-force-calculations.png)
 
 The force in member AB was 11.111 kN in compression.
 
@@ -86,9 +82,7 @@ The minimum member area was determined using the largest internal force, the yie
 
 ![Member-design knowns and unknowns](member-knowns-unknowns.png)
 
-![Symbolic member-area calculation](member-area-symbolic.png)
-
-![Numerical member-area calculation](member-area-numerical.png)
+![Numeric & symbolic member-area calculation](member-area.png)
 
 The calculated minimum cross-sectional area was 481.546 square millimeters.
 
@@ -124,9 +118,7 @@ A free-body diagram was created for the pin carrying the largest force. The diag
 
 The symbolic and numerical pin calculations are shown below.
 
-![Symbolic pin calculation](pin-area-symbolic.png)
-
-![Numerical pin calculation](pin-area-numerical.png)
+![Numerical & symbolic pin calculation](pin-area.png)
 
 The minimum required pin area was 0.251081 square inches.
 
