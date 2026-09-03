@@ -82,7 +82,7 @@ The minimum member area was determined using the largest internal force, the yie
 
 ![Member-design knowns and unknowns](member-knowns-unknowns.png)
 
-![Numeric & symbolic member-area calculation](member-solved.png)
+![Numeric & symbolic member-area calculation](member-area.png)
 
 The calculated minimum cross-sectional area was 481.546 square millimeters.
 
