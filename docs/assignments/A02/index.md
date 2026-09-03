@@ -290,7 +290,7 @@ The original strength calculations followed the assignment instruction to assume
 
 ### Pin Connection Failure
 
-The pins were designed as single-shear connections. In single shear, the complete connection force is carried across one cross-sectional area of the pin, and the average shear stress is calculated by dividing the shear force by the prch0"]}}
+The pins were designed as single-shear connections. In single shear, the complete connection force is carried across one cross-sectional area of the pin, and the average shear stress is calculated by dividing the shear force by the area.
 
 The largest pin force was 47.467 kN, or 10.671 kip. The selected 5/8-inch pin had a cross-sectional area of 0.306796 square inches. Dividing the force by the pin area produced an average shear stress of approximately 34.782 ksi.
 
