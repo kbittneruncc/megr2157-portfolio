@@ -163,8 +163,6 @@ For this simple bar, the hand calculation is highly reliable because the direct-
 
 ## Pin-Hole Stress Concentration
 
-## Pin-Hole Stress Concentration
-
 A 0.250-inch-diameter pin hole was assumed near the left side of the bar. The hole was centered across the 0.500-inch width and extended through the 0.250-inch thickness. The selected hole diameter was considered substantial because it was equal to half the width of the bar.
 
 The stress concentration factor was estimated for a finite-width flat bar containing a centered circular hole. The nominal stress through the reduced section was used to estimate the peak stress around the hole. The resulting peak stress was then compared with the aluminum yield strength to determine the new safety factor.
