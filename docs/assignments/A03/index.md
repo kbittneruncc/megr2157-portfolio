@@ -68,10 +68,16 @@ The width and height parameters controlled the dimensions of the rectangular cro
 The final dimensions of the bar were 28.1056 inches long, 0.500 inches wide, and 0.250 inches high.
 
 ![CAD model dimensions for height and length](height-length.png)
+
+*Figure 3. Dimensions shown for height and length of bar.*
+
 ![CAD model dimension for width](width.png)
+
+*Figure 4. Dimension shown for width of the bar.*
+
 ![CAD model](cad-model.png)
 
-*Figure 3. Completed rectangular bar in Fusion 360.*
+*Figure 5. Completed rectangular bar in Fusion 360.*
 
 ## Finite Element Analysis
 
@@ -83,7 +89,7 @@ An aluminum material was assigned to the bar. The modulus of elasticity was set 
 
 ![Material properties](material-propertiesa3.png)
 
-*Figure 4. Aluminum material properties used in the analysis.*
+*Figure 6. Aluminum material properties used in the analysis.*
 
 ## Constraint
 
@@ -91,7 +97,7 @@ One complete end face of the bar was fixed. This prevented that end from moving 
 
 ![Fixed constraint](fixed-constraint.png)
 
-*Figure 5. Fixed constraint applied to one end of the bar.*
+*Figure 7. Fixed constraint applied to one end of the bar.*
 
 ## Applied Load
 
@@ -99,7 +105,7 @@ A tensile load of 400 lbf was applied to the complete opposite end face. The loa
 
 ![Applied load](applied-load.png)
 
-*Figure 6. Tensile load applied in the X direction.*
+*Figure 8. Tensile load applied in the X direction.*
 
 ## Mesh
 
@@ -107,7 +113,7 @@ A solid mesh was generated across the complete bar. The mesh divided the model i
 
 ![Mesh](mesh.png)
 
-*Figure 7. Mesh used for the finite element analysis.*
+*Figure 9. Mesh used for the finite element analysis.*
 
 ## Deflection Results
 
@@ -117,7 +123,7 @@ The hand calculation predicted a displacement of 0.2286 mm. The FEA result of 0.
 
 ![Deflection result](deflection.png)
 
-*Figure 8. Deflection map produced by the finite element analysis.*
+*Figure 10. Deflection map produced by the finite element analysis.*
 
 ## Von Mises Stress Results
 
@@ -129,7 +135,7 @@ The higher stress near the fixed end was likely caused by the fixed condition pr
 
 ![Von Mises stress](von-mises-stress.png)
 
-*Figure 9. Von Mises stress map produced by the finite element analysis.*
+*Figure 11. Von Mises stress map produced by the finite element analysis.*
 
 ## Safety Factor
 
@@ -143,7 +149,7 @@ The minimum safety factor was still greater than one, and the maximum stress rem
 
 ![Safety factor](safety-factor.png)
 
-*Figure 10. Safety factor map produced by the finite element analysis.*
+*Figure 12. Safety factor map produced by the finite element analysis.*
 
 ## Comparison of Results
 
@@ -171,7 +177,7 @@ The completed pin-hole calculations are shown below.
 
 ![Pin-hole calculations](pin-hole-calculations.png)
 
-*Figure 11. Stress concentration and safety-factor calculations for the assumed pin hole.*
+*Figure 13. Stress concentration and safety-factor calculations for the assumed pin hole.*
 
 The estimated results were:
 
@@ -184,13 +190,59 @@ The estimated results were:
 
 The estimated peak stress remained below the aluminum yield strength of 40 ksi. Therefore, the bar would still pass the strength requirement with the assumed 0.250-inch pin hole. However, the estimated safety factor decreased from 12.5 without the hole to 2.899 with the hole.
 
+## Modified Design Parameters
+
+The effect of changing the design parameters was evaluated using the parametric Fusion 360 model. Only one parameter was changed during each test. All other parameters were returned to their original values before beginning the next test. The aluminum material, modulus of elasticity, maximum allowable deflection, and fixed constraint remained unchanged.
+
+The original design used a load of 400 lbf, a width of 0.500 in, and a height of 0.250 in. The resulting bar length was 28.1056 in.
+
+For this solid rectangular bar, the dimension called height in the Fusion 360 model also represents the thickness of the bar. A solid rectangular cross-section only requires two cross-sectional dimensions.
+
+### Change in Load
+
+Before changing the load, it was predicted that increasing the load would decrease the required length. A greater tensile load causes more elongation, so the bar must become shorter to remain within the maximum deflection of 0.009 in.
+
+The load was increased from 400 lbf to 450 lbf. The calculated length decreased from 28.1056 in to 24.9828 in. The result agreed with the prediction.
+
+![Modified load parameters](modified-load.png)
+
+*Figure 14. Bar length after increasing the load to 450 lbf.*
+
+### Change in Height
+
+Before changing the height, it was predicted that increasing the thickness would increase the required length. Increasing the thickness increases the cross-sectional area and makes the bar more resistant to axial deformation.
+
+The load was returned to 400 lbf, and the thickness was increased from 0.250 in to 0.300 in. The calculated length increased from 28.1056 in to 33.7267 in. The result agreed with the prediction.
+
+![Modified height parameters](modified-height.png)
+
+*Figure 15. Bar length after increasing the height to 0.300 in.*
+
+### Change in Width
+
+Before changing the width, it was predicted that increasing the width would increase the required length. Increasing the width increases the cross-sectional area and reduces the amount of axial deformation produced at a given length.
+
+The thickness was returned to 0.250 in, and the width was increased from 0.500 in to 0.600 in. The calculated length increased from 28.1056 in to 33.7267 in. The result agreed with the prediction.
+
+![Modified width parameters](modified-width.png)
+
+*Figure 16. Bar length after increasing the width to 0.600 in.*
+
+### Comparison
+
+Increasing the load caused the required bar length to decrease. Increasing either cross-sectional dimension caused the required length to increase. These results follow the direct-tension relationship: length is directly related to cross-sectional area and inversely related to applied load.
+
+The material and fixed constraint remained unchanged throughout all parameter modifications.
+
 ## Problems Encountered
 
 The first simulation produced an incorrect bending result and a safety factor below one. The load initially appeared to be applied along the bar, but the analysis showed a maximum stress of approximately 328 MPa. This indicated that the bar was experiencing bending instead of direct tension.
 
-The issue was corrected by applying the load specifically in the X direction, which was aligned with the length of the bar. After this correction, the FEA displacement matched the hand calculation and the minimum safety factor increased to 9.901.
+![Bar bending](bar-bending.png)
 
-Another problem occurred when attempting to create a separate area parameter. Fusion 360 did not provide square inches as a convenient area unit. This was corrected by including the width and height directly in the equation used to determine the bar length.
+*Figure 17. Bar bending due to incorrect loading.*
+
+The issue was corrected by applying the load specifically in the X direction, which was aligned with the length of the bar. After this correction, the FEA displacement matched the hand calculation and the minimum safety factor increased to 9.901.
 
 ## Lessons Learned
 
