@@ -26,7 +26,7 @@ The following values were selected for the design:
 - Maximum deflection: 0.009 in
 - Width: 0.500 in
 - Height: 0.250 in
-- Yield strength (S_y): 40 ksi
+- Yield strength (S_y): 40 ksi or 275.790 MPa
 
 ## Hand Calculations
 
@@ -129,7 +129,7 @@ The hand calculation predicted a displacement of 0.2286 mm. The FEA result of 0.
 
 The hand calculation predicted a nominal axial stress of 22.063 MPa. The finite element analysis produced a slightly higher maximum stress near the fixed end.
 
-The approximate maximum von Mises stress was 27.775 MPa. This value was still far below the aluminum yield strength of 275 MPa.
+The approximate maximum von Mises stress was 27.775 MPa. This value was still far below the aluminum yield strength of 275.790 MPa.
 
 The higher stress near the fixed end was likely caused by the fixed condition preventing the end of the bar from contracting naturally as it stretched. Most of the bar had a stress closer to the hand-calculated value.
 
@@ -189,7 +189,6 @@ The estimated results were:
 - Hole-diameter-to-width ratio: 0.500
 - Stress concentration factor: 2.156
 - Estimated peak stress: 13.798 ksi
-- Estimated peak stress: 95.131 MPa
 - Estimated safety factor: 2.899
 
 The estimated peak stress remained below the aluminum yield strength of 40 ksi. Therefore, the bar would still pass the strength requirement with the assumed 0.250-inch pin hole. However, the estimated safety factor decreased from 12.5 without the hole to 2.899 with the hole.
@@ -198,9 +197,7 @@ The estimated peak stress remained below the aluminum yield strength of 40 ksi. 
 
 The effect of changing the design parameters was evaluated using the parametric Fusion 360 model. Only one parameter was changed during each test. All other parameters were returned to their original values before beginning the next test. The aluminum material, modulus of elasticity, maximum allowable deflection, and fixed constraint remained unchanged.
 
-The original design used a load of 400 lbf, a width of 0.500 in, and a height of 0.250 in. The resulting bar length was 28.1056 in.
-
-For this solid rectangular bar, the dimension called height in the Fusion 360 model also represents the thickness of the bar. A solid rectangular cross-section only requires two cross-sectional dimensions.
+The original design used a load of 400 lbf, a width of 0.500 in, and a height of 0.250 in. The resulting bar length was 28.1056 in (refer to Figure 2).
 
 ### Change in Load
 
