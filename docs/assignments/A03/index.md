@@ -210,7 +210,7 @@ The load was increased from 400 lbf to 450 lbf. The calculated length decreased 
 
 ### Change in Height
 
-Before changing the height, it was predicted that increasing the thickness would increase the required length. Increasing the thickness increases the cross-sectional area and makes the bar more resistant to axial deformation.
+Before changing the height, it was predicted that increasing the height would increase the required length. Increasing the height increases the cross-sectional area and makes the bar more resistant to axial deformation.
 
 The load was returned to 400 lbf, and the thickness was increased from 0.250 in to 0.300 in. The calculated length increased from 28.1056 in to 33.7267 in. The result agreed with the prediction.
 
