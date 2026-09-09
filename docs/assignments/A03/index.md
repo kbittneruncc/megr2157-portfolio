@@ -171,7 +171,7 @@ The stress concentration factor was estimated for a finite-width flat bar contai
 
 The completed pin-hole calculations are shown below.
 
-![Pin-hole calculations](pin-hole-calculations.jpg)
+![Pin-hole calculations](pin-hole-calculations.png)
 
 *Figure 11. Stress concentration and safety-factor calculations for the assumed pin hole.*
 
