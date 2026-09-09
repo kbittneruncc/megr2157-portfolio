@@ -145,11 +145,13 @@ The FEA safety factor was lower because it was based on the maximum stress near 
 
 ![Stress concentration](stress-concentration.png)
 
+*Figure 12. Concentration of stress shown near fixed end.*
+
 The minimum safety factor was still greater than one, and the maximum stress remained below the yield strength of the aluminum. Therefore, the bar passed the strength requirement.
 
 ![Safety factor](safety-factor.png)
 
-*Figure 12. Safety factor map produced by the finite element analysis.*
+*Figure 13. Safety factor map produced by the finite element analysis.*
 
 ## Comparison of Results
 
@@ -158,6 +160,8 @@ The hand-calculated deflection was 0.2286 mm.
 The FEA deflection was 0.229 mm.
 
 ![Deflection percent difference](deflection-percent.png)
+
+*Figure 14. Hand calculations for percent difference in theoretical and FEA results.*
 
 The percent difference between the results was 0.175%.
 
@@ -177,7 +181,7 @@ The completed pin-hole calculations are shown below.
 
 ![Pin-hole calculations](pin-hole-calculations.png)
 
-*Figure 13. Stress concentration and safety-factor calculations for the assumed pin hole.*
+*Figure 15. Stress concentration and safety-factor calculations for the assumed pin hole.*
 
 The estimated results were:
 
@@ -206,7 +210,7 @@ The load was increased from 400 lbf to 450 lbf. The calculated length decreased 
 
 ![Modified load parameters](modified-load.png)
 
-*Figure 14. Bar length after increasing the load to 450 lbf.*
+*Figure 16. Bar length after increasing the load to 450 lbf.*
 
 ### Change in Height
 
@@ -216,7 +220,7 @@ The load was returned to 400 lbf, and the thickness was increased from 0.250 in 
 
 ![Modified height parameters](modified-height.png)
 
-*Figure 15. Bar length after increasing the height to 0.300 in.*
+*Figure 17. Bar length after increasing the height to 0.300 in.*
 
 ### Change in Width
 
@@ -226,7 +230,7 @@ The thickness was returned to 0.250 in, and the width was increased from 0.500 i
 
 ![Modified width parameters](modified-width.png)
 
-*Figure 16. Bar length after increasing the width to 0.600 in.*
+*Figure 18. Bar length after increasing the width to 0.600 in.*
 
 ### Comparison
 
@@ -240,7 +244,7 @@ The first simulation produced an incorrect bending result and a safety factor be
 
 ![Bar bending](bar-bending.png)
 
-*Figure 17. Bar bending due to incorrect loading.*
+*Figure 19. Bar bending due to incorrect loading.*
 
 The issue was corrected by applying the load specifically in the X direction, which was aligned with the length of the bar. After this correction, the FEA displacement matched the hand calculation and the minimum safety factor increased to 9.901.
 
