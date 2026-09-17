@@ -261,7 +261,7 @@ The drawing was dimensioned so that the motor mount could be manufactured withou
 
 *Figure 13. Dimensioned multiview drawing of the motor mount.*
 
-[Download the motor mount drawing PDF](A4+Drawing (1))
+[Download the motor mount drawing PDF](A4+Drawing.pdf)
 
 # Final Design
 
