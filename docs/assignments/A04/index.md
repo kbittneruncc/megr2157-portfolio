@@ -146,7 +146,7 @@ The moment transferred from Feature 1 was applied at the joint.
 
 ![Feature 2 free-body diagram](feature-2-fbd.png)
 
-*Figure 4. Free-body diagram for Feature 2.*
+*Figure 3. Free-body diagram for Feature 2.*
 
 ## Feature 2 Calculations
 
@@ -154,7 +154,7 @@ The symbolic work, equation substitutions, and numerical calculations for Featur
 
 ![Feature 2 hand calculations](feature-2-calculations.png)
 
-*Figure 5. Stress and deflection calculations for Feature 2.*
+*Figure 4. Stress and deflection calculations for Feature 2.*
 
 ## Feature 2 Results
 
@@ -186,7 +186,7 @@ An isometric sketch was produced using the dimensions determined from the Featur
 
 ![Isometric hand sketch](motor-mount-isometric-sketch.png)
 
-*Figure 6. Isometric hand sketch of the proposed motor mount.*
+*Figure 5. Isometric hand sketch of the proposed motor mount.*
 
 # Parametric CAD Model
 
@@ -234,7 +234,7 @@ overallHeight: 38 mm
 
 ![Fusion 360 parameter table](motor-mount-parameters.png)
 
-*Figure 7. User parameters used in the Fusion 360 model.*
+*Figure 6. User parameters used in the Fusion 360 model.*
 
 ## Motor Attachment Features
 
@@ -244,7 +244,7 @@ The motor mounting holes were created using a circular pattern on a 22 mm bolt c
 
 ![Motor mounting features](motor-mount-feature1.png)
 
-*Figure 8. Shaft opening, locating feature, and motor mounting-hole pattern.*
+*Figure 7. Shaft opening, locating feature, and motor mounting-hole pattern.*
 
 ## Wall Attachment Features
 
@@ -254,7 +254,7 @@ The first bolt row was positioned 7.5 mm from the Feature 1 joint. This distance
 
 ![Wall mounting features](motor-mount-feature-2.png)
 
-*Figure 9. Parametric wall mounting-hole pattern.*
+*Figure 8. Parametric wall mounting-hole pattern.*
 
 ## Completed CAD Model
 
@@ -262,11 +262,11 @@ The final CAD model consists of one joined body. The motor opening, motor fasten
 
 ![Completed motor mount](motor-mount-final.png)
 
-*Figure 11. Completed parametric motor mount.*
+*Figure 9. Completed parametric motor mount.*
 
 ## CAD Download
 
-[Download the Fusion 360 motor mount file](INSERT-CAD-DOWNLOAD-LINK-HERE)
+[Download the Fusion 360 motor mount file](A4.f3d)
 
 # Multiview Drawing
 
@@ -291,9 +291,9 @@ The drawing was dimensioned so that the motor mount could be manufactured withou
 
 ![Motor mount multiview drawing](motor-mount-drawing.png)
 
-*Figure 12. Dimensioned multiview drawing of the motor mount.*
+*Figure 10. Dimensioned multiview drawing of the motor mount.*
 
-[Download the motor mount drawing PDF](INSERT-DRAWING-PDF-LINK-HERE)
+[Download the motor mount drawing PDF](A4+Drawing (1))
 
 # Final Design
 
