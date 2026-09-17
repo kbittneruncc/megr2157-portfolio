@@ -90,7 +90,11 @@ The symbolic work, equation substitutions, and numerical calculations for Featur
 
 ![Feature 1 hand calculations](feature-1-calculations.png)
 
-*Figure 3. Stress and deflection calculations for Feature 1.*
+*Figure 3. Symbolic stress and deflection calculations for Feature 1.*
+
+![Feature 1 hand calculations](feature-1-numeric.png)
+
+*Figure 4. Numeric stress and deflection calculations continued.*
 
 ## Feature 1 Results
 
@@ -146,7 +150,7 @@ The moment transferred from Feature 1 was applied at the joint.
 
 ![Feature 2 free-body diagram](feature-2-fbd.png)
 
-*Figure 3. Free-body diagram for Feature 2.*
+*Figure 5. Free-body diagram for Feature 2.*
 
 ## Feature 2 Calculations
 
@@ -154,7 +158,11 @@ The symbolic work, equation substitutions, and numerical calculations for Featur
 
 ![Feature 2 hand calculations](feature-2-calculations.png)
 
-*Figure 4. Stress and deflection calculations for Feature 2.*
+*Figure 6. Symbolic stress and deflection calculations for Feature 2.*
+
+![Feature 2 hand calculations](feature-2-numeric.png)
+
+*Figure 7. Numeric stress and deflection calculations for Feature 2.*
 
 ## Feature 2 Results
 
@@ -186,55 +194,15 @@ An isometric sketch was produced using the dimensions determined from the Featur
 
 ![Isometric hand sketch](motor-mount-isometric-sketch.png)
 
-*Figure 5. Isometric hand sketch of the proposed motor mount.*
+*Figure 8. Isometric hand sketch of the proposed motor mount.*
 
 # Parametric CAD Model
 
 The motor mount was modeled parametrically in Fusion 360. Named parameters were used for the important dimensions so that the model would update consistently if a dimension changed.
 
-## Parametric Values
-
-mountWidth: 30 mm
-
-feature1Height: 30 mm
-
-feature2Length: 30 mm
-
-minThickness: 7.5 mm
-
-plateThickness: 8 mm
-
-motorBCD: 22 mm
-
-motorBoltRadius: 11 mm
-
-boltClearance: 3.4 mm
-
-shaftDiameter: 6 mm
-
-shaftClearance: 7 mm
-
-pilotDiameter: 18 mm
-
-pilotClearance: 18.2 mm
-
-pilotDepth: 2 mm
-
-wallHoleOffset: 7.5 mm
-
-wallHoleSpacing: 15 mm
-
-gussetLength: 12 mm
-
-gussetThickness: 4 mm
-
-filletRadius: 2 mm
-
-overallHeight: 38 mm
-
 ![Fusion 360 parameter table](motor-mount-parameters.png)
 
-*Figure 6. User parameters used in the Fusion 360 model.*
+*Figure 9. User parameters used in the Fusion 360 model.*
 
 ## Motor Attachment Features
 
@@ -244,7 +212,7 @@ The motor mounting holes were created using a circular pattern on a 22 mm bolt c
 
 ![Motor mounting features](motor-mount-feature1.png)
 
-*Figure 7. Shaft opening, locating feature, and motor mounting-hole pattern.*
+*Figure 10. Shaft opening, locating feature, and motor mounting-hole pattern.*
 
 ## Wall Attachment Features
 
@@ -254,15 +222,15 @@ The first bolt row was positioned 7.5 mm from the Feature 1 joint. This distance
 
 ![Wall mounting features](motor-mount-feature-2.png)
 
-*Figure 8. Parametric wall mounting-hole pattern.*
+*Figure 11. Parametric wall mounting-hole pattern.*
 
 ## Completed CAD Model
 
-The final CAD model consists of one joined body. The motor opening, motor fastener holes, wall fastener holes, gussets, and fillets are controlled by sketches, parameters, and pattern features.
+The final CAD model consists of one joined body. The motor opening, motor fastener holes, and wall fastener holes are controlled by sketches, parameters, and pattern features.
 
 ![Completed motor mount](motor-mount-final.png)
 
-*Figure 9. Completed parametric motor mount.*
+*Figure 12. Completed parametric motor mount.*
 
 ## CAD Download
 
@@ -291,7 +259,7 @@ The drawing was dimensioned so that the motor mount could be manufactured withou
 
 ![Motor mount multiview drawing](motor-mount-drawing.png)
 
-*Figure 10. Dimensioned multiview drawing of the motor mount.*
+*Figure 13. Dimensioned multiview drawing of the motor mount.*
 
 [Download the motor mount drawing PDF](A4+Drawing (1))
 
