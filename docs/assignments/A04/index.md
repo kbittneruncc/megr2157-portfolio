@@ -367,11 +367,9 @@ PETG was selected as the manufacturing material. Feature 2 was joined to the upp
 
 11. Motor and wall clearance holes were created using parametric patterns.
 
-12. Gussets and fillets were added to increase stiffness.
+12. The completed model was used to generate a multiview drawing.
 
-13. The completed model was used to generate a multiview drawing.
-
-14. The CAD model and drawing were exported for submission.
+13. The CAD model and drawing were exported for submission.
 
 # Mistakes and Revisions
 
