@@ -65,15 +65,15 @@ The unknown is the minimum cylinder diameter.
 
 The fixed-end reaction is 1200 lbf, and the maximum bending moment is 450 lbf-in.
 
-![Feature A stress free-body diagram](feature-a-stress-fbd.jpg)
+![Feature A stress free-body diagram](feature-a-stress-fbd.png)
 
 Figure 1. Feature A modeled as a cantilever with a uniformly distributed strap load. The diagram identifies the exposed length, applied load, support force, and reaction moment.
 
-![Feature A stress algebraic solution](feature-a-stress-algebraic.jpg)
+![Feature A stress algebraic solution](feature-a-stress-algebraic.png)
 
 Figure 2. Derivation of the minimum solid-cylinder diameter using bending stress and the allowable stress for A36 steel.
 
-![Feature A stress numerical solution](feature-a-stress-numerical.jpg)
+![Feature A stress numerical solution](feature-a-stress-numerical.png)
 
 Figure 3. Numerical calculation of Feature A’s minimum diameter and verification of the selected 0.8125-inch basic diameter.
 
@@ -95,15 +95,15 @@ Known values:
 
 The unknowns are the minimum cross-sectional area and thickness.
 
-![Feature B stress free-body diagram](feature-b-stress-fbd.jpg)
+![Feature B stress free-body diagram](feature-b-stress-fbd.png)
 
 Figure 4. Feature B modeled as an axially loaded bar carrying 1200 lbf in tension, following Appendix D.
 
-![Feature B stress algebraic solution](feature-b-stress-algebraic.jpg)
+![Feature B stress algebraic solution](feature-b-stress-algebraic.png)
 
 Figure 5. Derivation of the required cross-sectional area and bar thickness from the axial normal-stress equation.
 
-![Feature B stress numerical solution](feature-b-stress-numerical.jpg)
+![Feature B stress numerical solution](feature-b-stress-numerical.png)
 
 Figure 6. Numerical calculation of Feature B’s minimum thickness and axial-stress check for the selected 0.1875-inch thickness.
 
@@ -126,15 +126,15 @@ Known values:
 
 The unknown is the minimum vertical thickness.
 
-![Feature C stress free-body diagram](feature-c-stress-fbd.jpg)
+![Feature C stress free-body diagram](feature-c-stress-fbd.png)
 
 Figure 7. Feature C modeled as a simply supported beam with a centered 1200 lbf load and two 600 lbf support reactions.
 
-![Feature C stress algebraic solution](feature-c-stress-algebraic.jpg)
+![Feature C stress algebraic solution](feature-c-stress-algebraic.png)
 
 Figure 8. Derivation of Feature C’s required vertical thickness using the maximum bending moment and a rectangular cross section.
 
-![Feature C stress numerical solution](feature-c-stress-numerical.jpg)
+![Feature C stress numerical solution](feature-c-stress-numerical.png)
 
 Figure 9. Numerical calculation of Feature C’s minimum thickness and bending-stress check for the selected 0.750-inch thickness.
 
@@ -156,15 +156,15 @@ Known values:
 
 The unknowns are the minimum cross-sectional area and side-wall thickness.
 
-![Feature D stress free-body diagram](feature-d-stress-fbd.jpg)
+![Feature D stress free-body diagram](feature-d-stress-fbd.png)
 
 Figure 10. One of the two symmetric side members modeled under a centered axial tensile load of 600 lbf.
 
-![Feature D stress algebraic solution](feature-d-stress-algebraic.jpg)
+![Feature D stress algebraic solution](feature-d-stress-algebraic.png)
 
 Figure 11. Derivation of the required cross-sectional area and side-wall thickness using the axial normal-stress equation.
 
-![Feature D stress numerical solution](feature-d-stress-numerical.jpg)
+![Feature D stress numerical solution](feature-d-stress-numerical.png)
 
 Figure 12. Numerical calculation of Feature D’s minimum thickness and stress verification for the selected 0.250-inch wall thickness.
 
@@ -189,15 +189,15 @@ The unknown is the minimum vertical lip thickness.
 
 The contact force is conservatively placed at the free edge.
 
-![Feature E stress free-body diagram](feature-e-stress-fbd.jpg)
+![Feature E stress free-body diagram](feature-e-stress-fbd.png)
 
 Figure 13. The right-hand retaining lip modeled as a cantilever with a 600 lbf upward contact force concentrated at its free edge.
 
-![Feature E stress algebraic solution](feature-e-stress-algebraic.jpg)
+![Feature E stress algebraic solution](feature-e-stress-algebraic.png)
 
 Figure 14. Derivation of the minimum lip thickness using cantilever bending stress and a rectangular cross section.
 
-![Feature E stress numerical solution](feature-e-stress-numerical.jpg)
+![Feature E stress numerical solution](feature-e-stress-numerical.png)
 
 Figure 15. Numerical calculation of Feature E’s minimum thickness and bending-stress check for the selected 0.6875-inch thickness.
 
@@ -219,15 +219,15 @@ The loading and exposed length are unchanged from the stress calculation.
 
 The unknown is the minimum cylinder diameter required by bending stiffness.
 
-![Feature A stiffness free-body diagram](feature-a-stiffness-fbd.jpg)
+![Feature A stiffness free-body diagram](feature-a-stiffness-fbd.png)
 
 Figure 16. Feature A’s distributed-load FBD and deflected shape, showing maximum displacement at the cylinder’s free end.
 
-![Feature A stiffness algebraic solution](feature-a-stiffness-algebraic.jpg)
+![Feature A stiffness algebraic solution](feature-a-stiffness-algebraic.png)
 
 Figure 17. Derivation of the minimum cylinder diameter from the deflection equation for a uniformly loaded cantilever.
 
-![Feature A stiffness numerical solution](feature-a-stiffness-numerical.jpg)
+![Feature A stiffness numerical solution](feature-a-stiffness-numerical.png)
 
 Figure 18. Numerical calculation of the stiffness-based diameter and verification that the selected basic diameter satisfies the 0.005-inch deflection limit.
 
@@ -243,15 +243,15 @@ The calculation uses a tensile load of 1200 lbf, a clear length of 1.000 in, and
 
 The unknown is the minimum thickness required by axial stiffness.
 
-![Feature B stiffness free-body diagram](feature-b-stiffness-fbd.jpg)
+![Feature B stiffness free-body diagram](feature-b-stiffness-fbd.png)
 
 Figure 19. Feature B’s axial-load FBD and deformation sketch, identifying its 1.000-inch clear length and tensile elongation.
 
-![Feature B stiffness algebraic solution](feature-b-stiffness-algebraic.jpg)
+![Feature B stiffness algebraic solution](feature-b-stiffness-algebraic.png)
 
 Figure 20. Derivation of the minimum area and thickness from the axial-elongation equation.
 
-![Feature B stiffness numerical solution](feature-b-stiffness-numerical.jpg)
+![Feature B stiffness numerical solution](feature-b-stiffness-numerical.png)
 
 Figure 21. Numerical calculation of Feature B’s stiffness-based thickness and elongation at the selected stress-based dimensions.
 
@@ -267,15 +267,15 @@ The calculation uses a centered load of 1200 lbf, a span of 2.750 in, and a dept
 
 The unknown is the minimum vertical thickness required by bending stiffness.
 
-![Feature C stiffness free-body diagram](feature-c-stiffness-fbd.jpg)
+![Feature C stiffness free-body diagram](feature-c-stiffness-fbd.png)
 
 Figure 22. Feature C’s centered-load FBD and symmetric deflected shape, with maximum displacement at midspan.
 
-![Feature C stiffness algebraic solution](feature-c-stiffness-algebraic.jpg)
+![Feature C stiffness algebraic solution](feature-c-stiffness-algebraic.png)
 
 Figure 23. Derivation of Feature C’s minimum thickness from the deflection equation for a simply supported beam with a centered point load.
 
-![Feature C stiffness numerical solution](feature-c-stiffness-numerical.jpg)
+![Feature C stiffness numerical solution](feature-c-stiffness-numerical.png)
 
 Figure 24. Numerical calculation of Feature C’s stiffness-based thickness and deflection at the selected 0.750-inch thickness.
 
@@ -291,15 +291,15 @@ Each side carries 600 lbf over a nominal clear length of 1.500 in. The depth is 
 
 The unknown is the minimum wall thickness required by axial stiffness.
 
-![Feature D stiffness free-body diagram](feature-d-stiffness-fbd.jpg)
+![Feature D stiffness free-body diagram](feature-d-stiffness-fbd.png)
 
 Figure 25. One side member’s axial-load FBD and elongation sketch, showing the 600 lbf load and 1.500-inch nominal clear length.
 
-![Feature D stiffness algebraic solution](feature-d-stiffness-algebraic.jpg)
+![Feature D stiffness algebraic solution](feature-d-stiffness-algebraic.png)
 
 Figure 26. Derivation of Feature D’s minimum area and thickness from the allowable axial elongation.
 
-![Feature D stiffness numerical solution](feature-d-stiffness-numerical.jpg)
+![Feature D stiffness numerical solution](feature-d-stiffness-numerical.png)
 
 Figure 27. Numerical calculation of Feature D’s stiffness minimum and elongation check for the retained 0.250-inch wall thickness.
 
@@ -315,15 +315,15 @@ Each lip carries a 600 lbf end load over a 1.000-inch projection. The depth is 1
 
 The unknown is the minimum lip thickness required by bending stiffness.
 
-![Feature E stiffness free-body diagram](feature-e-stiffness-fbd.jpg)
+![Feature E stiffness free-body diagram](feature-e-stiffness-fbd.png)
 
 Figure 28. Feature E’s end-load FBD and deflected shape, showing upward displacement at the lip’s free edge.
 
-![Feature E stiffness algebraic solution](feature-e-stiffness-algebraic.jpg)
+![Feature E stiffness algebraic solution](feature-e-stiffness-algebraic.png)
 
 Figure 29. Derivation of the minimum lip thickness from the cantilever end-load deflection equation.
 
-![Feature E stiffness numerical solution](feature-e-stiffness-numerical.jpg)
+![Feature E stiffness numerical solution](feature-e-stiffness-numerical.png)
 
 Figure 30. Numerical calculation of Feature E’s stiffness-based thickness and deflection at the selected 0.6875-inch thickness.
 
@@ -387,7 +387,7 @@ RC7 was selected because the assignment states that accuracy is not essential.
 
 Source: Machinery’s Handbook, Table 8b, page 655.
 
-![Bracket dimension a RC7 fit](bracket-fit-a.jpg)
+![Bracket dimension a RC7 fit](bracket-fit-a.png)
 
 Figure 31. RC7 limits for the bracket’s stem slot and verification of minimum and maximum width clearance.
 
@@ -406,7 +406,7 @@ Actual side gaps also depend on the T-beam’s lateral position within the stem-
 
 Source: Machinery’s Handbook, Table 8a, page 654.
 
-![Bracket dimension b RC3 fit](bracket-fit-b.jpg)
+![Bracket dimension b RC3 fit](bracket-fit-b.png)
 
 Figure 32. Table with RC3 limits for each side recess and the resulting tolerance stack for the total flange-opening width.
 
@@ -443,7 +443,7 @@ The selected dimensions are:
 
 The load acts along the line joining the hole centers. The plate has uniform thickness, and the nominal net-section calculation excludes local stress concentrations, bearing stresses, and interference-fit stresses.
 
-![Link free-body diagram](link-fbd.jpg)
+![Link free-body diagram](link-fbd.png)
 
 Figure 34. Link FBD showing opposing 1200 lbf forces acting along the line joining the hole centers.
 
@@ -455,11 +455,11 @@ The required net area is 0.13333 in².
 
 A width of 1.750 in and a thickness of 0.250 in were selected. Using a preliminary 1.000-inch hole gives a net area of 0.1875 in² and a nominal stress of 6400 psi.
 
-![Link strength algebraic solution](link-stress-algebraic.jpg)
+![Link strength algebraic solution](link-stress-algebraic.png)
 
 Figure 35. Derivation of the required net area and plate thickness at the larger hole.
 
-![Link strength numerical solution](link-stress-numerical.jpg)
+![Link strength numerical solution](link-stress-numerical.png)
 
 Figure 36. Selection of the link width and thickness and verification of nominal net-section tensile stress using preliminary hole dimensions.
 
@@ -473,11 +473,11 @@ Using the preliminary net area of 0.1875 in² gives an elongation of 0.00044138 
 
 This model excludes local hole-contact deformation.
 
-![Link stiffness algebraic solution](link-stiffness-algebraic.jpg)
+![Link stiffness algebraic solution](link-stiffness-algebraic.png)
 
 Figure 37. Axial-elongation model using the minimum net area over the hole-center spacing.
 
-![Link stiffness numerical solution](link-stiffness-numerical.jpg)
+![Link stiffness numerical solution](link-stiffness-numerical.png)
 
 Figure 38. Elongation calculation for the selected 2.000-inch hole-center spacing and preliminary net cross-sectional area.
 
@@ -493,7 +493,7 @@ RC3 provides a close clearance fit allowing relative movement between the link a
 
 Source: Machinery’s Handbook, Table 8a, page 654.
 
-![Link RC3 fit calculations](link-rc3-fit.jpg)
+![Link RC3 fit calculations](link-rc3-fit.png)
 
 Figure 39. RC3 hole and shaft limits for the Feature A connection, including minimum and maximum diametral clearance.
 
@@ -521,7 +521,7 @@ The shaft must be manufactured to these limits. An exactly 1.0000-inch shaft wou
 
 Source: Machinery’s Handbook, Table 11, page 659.
 
-![Link FN1 fit calculations](link-fn1-fit.jpg)
+![Link FN1 fit calculations](link-fn1-fit.png)
 
 Figure 40. FN1 hole and shaft limits for the nominal 1-inch connection, including minimum and maximum diametral interference.
 
@@ -549,21 +549,21 @@ The updated axial elongation is 0.00044167 in, below the assumed 0.005-inch limi
 
 These checks use the preassembly hole size and exclude stresses introduced by the interference fit.
 
-![Link checks using maximum hole diameter](link-final-checks.jpg)
+![Link checks using maximum hole diameter](link-final-checks.png)
 
 Figure 41. Updated net-section stress and axial-elongation checks using the maximum finished-hole diameter of 1.0005 inches.
 
 ### Fit Tables Used
 
-![Machinery’s Handbook Table 8a](fits-table-654.jpg)
+![Machinery’s Handbook Table 8a](fits-table-654.png)
 
 Figure 42. Machinery’s Handbook, Table 8a, page 654. RC3 and RC4 tolerance limits used for the bracket and link.
 
-![Machinery’s Handbook Table 8b](fits-table-655.jpg)
+![Machinery’s Handbook Table 8b](fits-table-655.png)
 
 Figure 43. Machinery’s Handbook, Table 8b, page 655. RC7 tolerance limits used for the bracket’s stem slot.
 
-![Machinery’s Handbook Table 11](fits-table-659.jpg)
+![Machinery’s Handbook Table 11](fits-table-659.png)
 
 Figure 44. Machinery’s Handbook, Table 11, page 659. FN1 tolerance limits used for the link’s nominal 1-inch shaft connection.
 
@@ -573,7 +573,7 @@ Figure 44. Machinery’s Handbook, Table 11, page 659. FN1 tolerance limits used
 
 The paper drawing shows the selected stress-based dimensions in aligned front, top, and right-side views.
 
-![Stress-based bracket multiview drawing](bracket-stress-drawing.jpg)
+![Stress-based bracket multiview drawing](bracket-stress-drawing.png)
 
 Figure 45. Dimensioned front, top, and right-side views of the bracket using the selected stress-based dimensions.
 
@@ -583,7 +583,7 @@ The separate paper drawing shows the stiffness-based comparison dimensions.
 
 Feature D retains its selected thickness to preserve the bracket geometry and the support span used for Feature C.
 
-![Stiffness-based bracket multiview drawing](bracket-stiffness-drawing.jpg)
+![Stiffness-based bracket multiview drawing](bracket-stiffness-drawing.png)
 
 Figure 46. Separate multiview drawing using stiffness-based dimensions, with Feature D’s wall thickness retained for geometric compatibility.
 
