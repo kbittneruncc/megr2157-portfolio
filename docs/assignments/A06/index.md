@@ -328,7 +328,7 @@ The notes specify ASTM A36 steel and identify the flush relationship between the
 
 *Figure 20. Bracket drawing showing feature dimensions, T-slot fit tolerances, cylinder tolerance, and interface notes.*
 
-[Download the bracket drawing PDF](bracket-drawing.pdf)
+[Download the bracket drawing PDF](A6_Bracket_Drawing.pdf)
 
 ### Link Drawing
 
@@ -340,11 +340,11 @@ The datum and perpendicularity controls define the orientation requirements for 
 
 *Figure 21. Link drawing showing hole-size tolerances, datum A, perpendicularity controls, and mating-shaft requirements.*
 
-[Download the link drawing PDF](link-drawing.pdf)
+[Download the link drawing PDF](A6_Link_Drawing.pdf)
 
 ### CAD Model
 
-[Download the editable Fusion model](bracket-and-link.f3d)
+[Download the editable Fusion model](A6.f3d)
 
 The Fusion file contains both the bracket and link, including the named parameters and expressions used to define their geometry.
 
