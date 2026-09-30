@@ -21,7 +21,7 @@ The bracket was divided into features A through E. The CAD model follows the sim
 
 ### Bracket Modeling Process
 
-The bracket was created in Fusion using named parameters for the T-slot, upper block, support B, and cylinder A. Expressions connected related dimensions so changes could propagate through the model.
+The bracket was created in Fusion using named parameters for the T-slot, upper block, support B, and cylinder A. Expressions connected related dimensions so changes could be made through the model.
 
 #### Upper Block Sketch
 
@@ -55,7 +55,7 @@ Its bottom edge was positioned 0.750 in above the bottom of the block. The openi
 
 The rectangular opening was cut through the full depth of the block. This created the space for the horizontal portion of the rigid T-beam.
 
-The remaining material below the opening formed feature C. Its thickness was controlled by the analytical parameter relationship discussed below.
+The remaining material below the opening formed feature C. Its thickness was controlled by the parameter relationship discussed below.
 
 ![Wide opening cut](bracket-opening-cut.png)
 
@@ -75,7 +75,7 @@ The sketch extended from the top of the wide opening to the top surface of the b
 
 The narrow profile was cut through the full block depth. This completed the T-shaped opening and separated the upper portion into two lips.
 
-The nominal geometry was modeled first. The specific RC7, RC3, and RC4 fit tolerances were applied to the engineering drawing.
+The exact geometry was modeled first. The specific RC7, RC3, and RC4 fit tolerances were applied to the engineering drawing.
 
 ![Narrow slot cut](bracket-slot-cut.png)
 
@@ -123,7 +123,7 @@ This length included the 0.1875 in support thickness and left 0.750 in of expose
 
 #### Completed Bracket
 
-The completed bracket contained the T-shaped opening, support B, and cylinder A. The model followed the simplified feature geometry used in the previous stress and stiffness calculations.
+The completed bracket contained the T-shaped opening, support B, and cylinder A. The model followed the feature geometry used in the previous stress and stiffness calculations.
 
 ![Completed bracket model](bracket-model.png)
 
@@ -164,7 +164,7 @@ The updated values were:
 
 This change increased the thickness of feature C and the overall upper-block height. The load was restored to 1200 lbf before saving the final design.
 
-The check demonstrated the equation-driven behavior of feature C and its dependent geometry. The other features were not automatically resized or revalidated for the increased load.
+The check demonstrated the equation based behavior of feature C and its dependent geometry. The other features were not automatically resized or revalidated for the increased load.
 
 ![Parameters with increased load](parameters-increased-load.png)
 
@@ -172,7 +172,7 @@ The check demonstrated the equation-driven behavior of feature C and its depende
 
 ### Link Modeling Process
 
-The link was created as a separate internal component in the same Fusion design. This allowed the link and bracket to share parameters while having separate engineering drawings.
+The link was created as a separate internal component in the same Fusion design using the "Hybrid" feature. This allowed the link and bracket to share parameters while having separate engineering drawings.
 
 #### Link Parameters
 
@@ -293,7 +293,7 @@ The drawing includes the mating-shaft limits so both sides of each interface are
 
 ### Geometric Tolerancing
 
-One broad face of the link was identified as datum A. Each hole was given a perpendicularity tolerance of diameter 0.005 in relative to that datum.
+One front face of the link was identified as datum A. Each hole was given a perpendicularity tolerance of diameter 0.005 in relative to that datum.
 
 The 0.005 in value was a selected design tolerance. It limits the orientation error of each hole axis relative to the plate face. The hole-size tolerances separately establish the required fits.
 
@@ -374,11 +374,11 @@ Support B was sketched on the back face and extruded toward the front. Defining 
 
 ### Drawing Process and Corrections
 
-A dimension-selection misunderstanding initially produced an incorrect measurement when locating the cylinder center. Selecting the intended outside edge and cylinder center resolved the issue without overriding the dimension value.
+A dimensional error initially produced an incorrect measurement when locating the cylinder center. Selecting the outside edge and cylinder center resolved the issue and demonstrated the importance of precision when creating technical drawings.
 
-Drawing precision also affected the general tolerances. Displaying a width as 1.750 instead of 1.75 changed its applicable general tolerance from ±0.01 to ±0.005 in.
+Drawing precision also affected the general tolerances; for example, displaying a width as 1.750 instead of 1.75 changed its applicable general tolerance from ±0.01 to ±0.005 in.
 
-The bracket view scale was set to 1:3 to provide more separation between dimensions. The link used 1:2 because its simpler geometry required less annotation space.
+The bracket view scale was set to 1:3 to provide more separation between dimensions. The link used 1:2 because its simpler geometry required less annotation space. Adjusting the scale was important to the clarity of the drawing.
 
 ## Time Spent
 
