@@ -14,15 +14,15 @@ The material was kept as Steel ASTM A36. The required safety factor was 4.
 
 The bracket study used the following inputs:
 
-- Material: Steel ASTM A36.
-- Yield strength in Fusion: 248.225 MPa, approximately 36,000 psi.
-- Elastic modulus in Fusion: 199.959 GPa, approximately 29,000,000 psi.
-- Poisson’s ratio: 0.30.
-- Strap force: 600 lbf per leg.
-- Total applied force: 1,200 lbf.
-- Bracket force components: Fx = 0, Fy = 0, Fz = -1,200 lbf.
-- Required safety factor: 4.
-- Original feature deflection limit: 0.005 in, equivalent to 0.127 mm.
+- Material: Steel ASTM A36
+- Yield strength in Fusion: 248.225 MPa, approximately 36,000 psi
+- Elastic modulus in Fusion: 199.959 GPa, approximately 29,000,000 psi
+- Poisson’s ratio: 0.30
+- Strap force: 600 lbf per leg
+- Total applied force: 1,200 lbf
+- Bracket force components: Fx = 0, Fy = 0, Fz = -1,200 lbf
+- Required safety factor: 4
+- Original feature deflection limit: 0.005 in, equivalent to 0.127 mm
 
 The safety factor of 2 displayed as a default target in Fusion was not used to replace the original requirement of 4.
 
