@@ -604,9 +604,9 @@ Total: 10 hours 45 minutes
 - [Bracket Design 1 CAD file](A6-FEA.f3z)
 - [Bracket Design 2 CAD file](A6-FEA-Design2.f3z)
 - [Bracket Design 3 CAD file](A6-FEA-Design3.f3z)
-- [Link Design 1 CAD file](A6-FEA-Design1_Link.f3z)
-- [Link Design 2 CAD file](A6-FEA-Design2_Link.f3z)
-- [Link Design 3 CAD file](A6-FEA-Design3_Link.f3z)
+- [Link Design 1 CAD file](A6-FEA-Design1_Link.f3d)
+- [Link Design 2 CAD file](A6-FEA-Design2_Link.f3d)
+- [Link Design 3 CAD file](A6-FEA-Design3_Link.f3d)
 
 ## References
 
