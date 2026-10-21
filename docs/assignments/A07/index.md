@@ -590,17 +590,14 @@ Fixed supports simplify the actual fits and contact behavior. The link study did
 The unresolved contact warnings in Bracket Design 3 also limit confidence in its results. These limitations must remain visible when presenting the design comparison.
 
 ## Time Spent
-
-| Activity |
-|---|---|
-| Original bracket study setup and analysis | [Enter time] |
-| Bracket Design 2 geometry change and mesh studies | [Enter time] |
-| Bracket Design 3 geometry change and mesh studies | [Enter time] |
-| Link Design 1 setup and mesh studies | [Enter time] |
-| Link Design 2 thickness change and mesh studies | [Enter time] |
-| Link Design 3 thickness change and mesh studies | [Enter time] |
-| Portfolio documentation | [Enter time] |
-| Total | [Enter total] |
+Original bracket study setup and analysis: 45 minutes
+Bracket Design 2 geometry change and mesh studies: 1 hour
+Bracket Design 3 geometry change and mesh studies: 1 hour
+Link Design 1 setup and mesh studies: 30 minutes
+Link Design 2 thickness change and mesh studies: 45 minutes
+Link Design 3 thickness change and mesh studies: 45 minutes
+Portfolio documentation: 6 hours
+Total: 10 hours 45 minutes
 
 ## Downloadable Files
 
