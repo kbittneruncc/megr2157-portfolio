@@ -1,9 +1,7 @@
 
 # A8 — Gearbox Design
 
-**Courses:** MEGR 2156 / MEGR 2157  
-**Project:** Two-Piece Spur Gear Reduction Gearbox  
-**Software:** Autodesk Fusion 360
+**Course:** MEGR 2156 / MEGR 2157  
 
 ## Objective
 
