@@ -694,7 +694,7 @@ The final gearbox assembly contains:
 ![Figure 15: Complete gearbox model](model-gearbox-assembly.png)
 ![Figure 15: Complete gearbox assembly](drawing-gearbox-assembly.png)
 
-*Figure 15: Complete gearbox assembly drawing showing component locations, item balloons, parts list, and operating specifications.*
+*Figure 15: Complete gearbox assembly drawing and model showing component locations, item balloons, parts list, and operating specifications.*
 
 ---
 
