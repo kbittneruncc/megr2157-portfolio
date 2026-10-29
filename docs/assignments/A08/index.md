@@ -470,6 +470,15 @@ Each housing half:
 
 Total central cavity height: 0.300 in
 
+![lh1](lh1.png)
+![lh2](lh2.png)
+![lh3](lh3.png)
+![lh4](lh4.png)
+
+![lh6](lh6.png)
+![lh7](lh7.png)
+![lh8](lh8.png)
+
 ## 6.4 Shaft Center Locations
 
 Output shaft center:
@@ -491,18 +500,19 @@ Nominal bearing hole diameters:
 
 The actual manufactured housing bore sizes require fit-specific tolerances.
 
+![lh5](lh5.png)
+![lh6](lh6.png)
+
 ## 6.5 Mounting Hole Locations
 
 Four clearance holes were added to each housing half.
 
 Nominal hole diameter: 0.128 in
 
-Locations:
+Each hole is 0.125 in away from its neighboring wall extending in the X and Y directions.
 
-- Bottom-left: (0.125, 0.125)
-- Bottom-right: (2.375, 0.125)
-- Top-left: (0.125, 1.875)
-- Top-right: (2.375, 1.875)
+![lh7](lh7.png)
+![lh8](lh8.png)
 
 ## 6.6 Fastening Method
 
@@ -516,6 +526,10 @@ The fasteners used in the final assembly drawing were:
 The removable fasteners allow the gearbox housing to be opened for inspection and maintenance.
 
 **Decision: Use a removable two-piece housing with four screws and nuts.**
+
+![Screws](buttonscrews.png)
+![hexnuts](hexnuts.png)
+
 
 ---
 
@@ -555,9 +569,8 @@ The lower housing was created using the following process:
 The completed housing contained the required features for supporting the gearbox components.
 
 ![Figure 13: Lower housing engineering model](model-lower-housing.png)
-![Figure 13: Lower housing engineering drawing](drawing-lower-housing.png)
 
-*Figure 13: Completed lower housing engineering drawing and model showing the cavity, bearing holes, mounting holes, dimensions, and material information.*
+*Figure 13: Completed lower housing engineering model showing the cavity, bearing holes, and mounting holes.*
 
 ## 7.4 Upper Housing Modeling
 
@@ -568,9 +581,8 @@ The geometry was kept identical so that the bearing holes and mounting holes wou
 During assembly, the upper housing was rotated so that both internal cavities faced one another.
 
 ![Figure 14: Upper housing engineering model](model-upper-housing.png)
-![Figure 14: Upper housing engineering drawing](drawing-upper-housing.png)
 
-*Figure 14: Completed upper housing engineering drawing and model with the corresponding bearing and mounting hole locations.*
+*Figure 14: Completed upper housing engineering model with the corresponding bearing and mounting hole locations.*
 
 ## 7.5 Shaft Modeling
 
@@ -588,6 +600,9 @@ Output shaft:
 
 Both shafts were modeled as solid cylinders using the assignment dimensions.
 
+![inputshaft](inputshafta8.png)
+![outputshaft](outputshafta8.png)
+
 ## 7.6 Journal Bearing Components
 
 The journal bearings were obtained from McMaster-Carr CAD models.
@@ -600,6 +615,10 @@ Selected components:
 Two bearings were installed for each shaft.
 
 Rigid Joints were used to position the bearings within the housing.
+
+![Input bearing](inputbearinga8.png)
+![Output bearing](outputbearinga8.png)
+
 
 ## 7.7 Gear Components
 
@@ -615,6 +634,10 @@ Each gear was placed coaxially with its corresponding shaft.
 Rigid Joints were used to represent the intended press-fit connection between each gear and shaft.
 
 The gears were positioned to maintain the calculated center distance and proper axial alignment.
+
+![outputgear](outputgeara8.png)
+![piniongear](piniongeara8.png)
+
 
 ## 7.8 Assembly Relationships
 
@@ -647,6 +670,8 @@ For one full input shaft revolution:
 - Output direction: Opposite the input
 
 This represents the calculated reduction ratio of 2.66667:1.
+
+![gearboxinmotion](motiona8.png)
 
 ## 7.10 Complete Gearbox Assembly
 
