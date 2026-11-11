@@ -248,3 +248,56 @@ https://github.com/Taylor-Rockefeller-Portfolio/megr2157-portfolio/raw/refs/head
 
 
 ![](crosshead_drawing.png)
+
+
+## Resources
+
+### Tensile Tester Design References
+
+- [Design, Manufacturing, and Testing of an Open-Source Universal Testing Machine – TU Wien (2024)](https://repositum.tuwien.at/bitstream/20.500.12708/200949/1/Demmel%20Stella%20-%202024%20-%20Design%20manufacturing%20and%20testing%20of%20an%20open-source...pdf)
+  - Reference for tensile tester design, mechanical components, and testing methods.
+
+- [Low-Cost Universal Tensile Testing Machine – Hackaday](https://hackaday.io/project/192166-low-cost-universal-tensile-testing-machine)
+  - Reference for developing an affordable tensile testing system.
+
+- [FreeLoader – Creative Machines Lab](https://www.creativemachineslab.com/freeloader.html)
+  - Reference for the mechanical arrangement of an open-source tensile tester.
+
+### Leadscrews, Nuts, and Flanges
+
+- [Roton – Acme Leadscrew Engineering Data](https://www.roton.com/products/acme-lead-screws-nuts/engineering-data/)
+  - Used for leadscrew dimensions, torque calculations, efficiency, and load capacity.
+
+- [McMaster-Carr – 1/2"-10 Acme Steel Leadscrew (99030A405)](https://www.mcmaster.com/99030A405)
+  - Reference for the leadscrew specifications and CAD geometry.
+
+- [McMaster-Carr – Bronze Acme Nut (95072A109)](https://www.mcmaster.com/95072A109)
+  - Reference for the bronze nut used in the crosshead assembly.
+
+- [McMaster-Carr – Steel Mounting Flange (95082A642)](https://www.mcmaster.com/95082A642)
+  - Reference for the mounting flange dimensions and geometry.
+
+### Frame and Structural Components
+
+- [80/20 – 40-4080 T-Slot Aluminum Extrusion](https://8020.net/40-4080.html)
+  - Used for selecting the structural frame material and dimensions.
+
+- [80/20 IdeaBuilder](https://ideabuilder.io/)
+  - Used for creating and evaluating the T-slot frame layout.
+
+### Engineering Calculations
+
+- [MechanicalC – Column Buckling](https://mechanicalc.com/reference/column-buckling)
+  - Reference for evaluating leadscrew buckling under axial compression.
+
+- Machinery's Handbook, 31st Edition
+  - Reference for Acme thread geometry, bearing stress, and mechanical design calculations.
+
+- Engineering Mechanics – Screws, Chapters 6/5
+  - Course reference for leadscrew loading, torque, and rotational motion.
+
+### Load Measurement
+
+- [OMEGA – LC103B Load Cell Specifications](https://assets.dwyeromega.com/spec/DS-LC103B.pdf)
+  - Reference for load cell specifications and force measurement.
+
