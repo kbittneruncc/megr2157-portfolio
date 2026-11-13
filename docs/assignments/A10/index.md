@@ -249,6 +249,8 @@ https://github.com/Taylor-Rockefeller-Portfolio/megr2157-portfolio/raw/refs/head
 
 ![](crosshead_drawing.png)
 
+**[DOWNLOAD CAD FILES AND DRAWINGS](TensileTester.zip)**
+
 
 ## Resources
 
