@@ -104,17 +104,17 @@ If required the last mesh was decreased to the finest mesh used of 10mm.
 
 ![](A11_FEA_top.png)
 
-Maximum von Mises stress and location
+### Maximum von Mises Stress and Location
+The maximum von Mises stress decreased from **154.616 psi to 128.659 psi and finally 116.424 psi** across three simulations. This represents reductions of **16.79% and 9.51%**, respectively, with an overall reduction of **24.70%**. The upper horizontal beam and its loading connections were the primary areas of interest.
 
+### Maximum Vertical Deflection
+The maximum total displacement decreased from **0.00001067 in to 0.00001063 in (0.000270 mm)**, a **0.375% reduction**. The greatest displacement occurred near the center of the upper beam, indicating minimal deformation.
 
-Maximum vertical deflection at the grip line
+### Factor of Safety
+The **average calculated safety factor was 278.32**, significantly exceeding the required factor of safety of 4. This indicates sufficient strength under the simulated loading conditions.
 
-
-Factor of Safety (based on chosen material yield)
-
-
-Brief discussion of load path and any observed twisting/warping tendencies
-
+### Load Path and Twisting/Warping
+Loads traveled through the upper horizontal beam into the vertical supports and lower frame. Deformation appeared approximately symmetrical, with no significant twisting or warping visible. Displacement results remained consistent, although the **9.51% final stress change** indicates that further mesh refinement would be beneficial.
 
 #### Optimization Pass
 
