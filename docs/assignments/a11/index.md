@@ -122,24 +122,37 @@ Loads traveled through the upper horizontal beam into the vertical supports and 
 
 #### Model Setup
 
-#### Meshing and Verification
+![](A11verticalsetup.png)
+
+#### Meshing
+
+Each model was initially meshed with a coarse mesh of 50mm using absolute sizing.
+
+After the initial simulation the mesh was then decreased to a finer mesh of 30mm.
+
+If required the last mesh was decreased to the finest mesh used of 10mm.
 
 #### Results
 
 Maximum von Mises stress and location
 
-![](A11_vertical_von.png)
+![](von1.png)
+![](von2.png)
+![](von3.png)
 
 Maximum vertical deflection at the grip line
 
-![](A11_FEA_Deflection.png)
+![](disp1.png)
+![](disp2.png)
+![](disp3.png)
 
 Factor of Safety (based on chosen material yield)
 
-![](A11_vertical_SF.png)
+![](safety1.png)
+![](safety2.png)
+![](safety3.png)
 
-Brief discussion of load path and any observed twisting/warping tendencies
-
+The axial compression load travels downward through the vertical frame member, while the transverse load causes lateral bending. The greatest displacement occurs near the top of the frame, with the highest stresses concentrated near the fixed bottom support. The simulation shows slight sideways bending but no significant twisting or warping. Overall, the frame maintains its structural integrity under the applied loads.
 
 #### Optimization Pass
 
