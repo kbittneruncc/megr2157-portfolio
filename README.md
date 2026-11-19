@@ -52,7 +52,7 @@ MEGR-2156-7-template/
 │       │   └── index.md        <- A9x: Pugh Matrix — Gear vs. Pulley vs. Lead Screw
 │       ├── A10/
 │       │   └── index.md        <- A10: Lead Screw Part 1
-│       ├── A11/
+│       ├── a11/
 │       │   └── index.md        <- A11: Lead Screw Part 2 / Motor Selection
 │       └── A12/
 │           └── index.md        <- A12: [Final Assignment]
