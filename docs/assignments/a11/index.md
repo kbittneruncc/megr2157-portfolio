@@ -118,6 +118,10 @@ Loads traveled through the upper horizontal beam into the vertical supports and 
 
 #### Optimization Pass
 
+**Proposed Changes:** The upper frame exhibited minimal stress and deflection, so major modifications were unnecessary. Additional gusset brackets or reinforcement plates could be added at the upper corners to improve rigidity and reduce twisting.
+
+**Shift in Critical Locations:** The critical locations remained near the upper beam and loading connections. Additional reinforcement would likely reduce stress concentrations and shift the maximum stress toward the center of the beam.
+
 ### Vertical Frame Component FEA-
 
 #### Model Setup
@@ -155,6 +159,10 @@ Factor of Safety (based on chosen material yield)
 The axial compression load travels downward through the vertical frame member, while the transverse load causes lateral bending. The greatest displacement occurs near the top of the frame, with the highest stresses concentrated near the fixed bottom support. The simulation shows slight sideways bending but no significant twisting or warping. Overall, the frame maintains its structural integrity under the applied loads.
 
 #### Optimization Pass
+
+**Proposed Changes:** The vertical frame showed minimal deformation and maintained a safety factor above the required value. Additional corner gussets or larger fillets at mounting interfaces could improve lateral stiffness, although no major changes were necessary.
+
+**Shift in Critical Locations:** The highest stresses remained near the fixed bottom support. Adding reinforcement could reduce these concentrations and shift the critical stress location toward the transverse loading region.
 
 ## Floating Bearing Mount:
 
