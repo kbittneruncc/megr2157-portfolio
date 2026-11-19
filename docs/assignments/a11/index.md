@@ -32,13 +32,13 @@
 
 ### Motor Mount-
 
-#### Knowns/Unknowns
+#### Knowns/Unknowns and FBD
 
-#### FBD
+![](A11_motormount_math(1).png)
 
-#### Equations
+#### Equations and Numeric Solutions
 
-#### Numeric Solution
+![](A11_motormount_math(2).png)
 
 ### Coupler-
 
